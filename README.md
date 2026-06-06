@@ -1,26 +1,20 @@
 # Remotion TikTok explainer reel template
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3tL9cWyCBZ8?si=A4-pLPVecuZyxmGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Commands
 
 **Install Dependencies**
 
 ```console
-npm i
+pnpm i
 ```
 
 **Start Preview**
 
 ```console
-npm run dev
+pnpm run dev
 ```
 
 **Render video**
@@ -59,6 +53,14 @@ node sub.mjs <path-to-folder>
 ## Configure Whisper.cpp
 
 Captioning will download Whisper.cpp and the 1.5GB big `medium.en` model. To configure which model is being used, you can configure the variables in `whisper-config.mjs`.
+
+It is recommended to have one installation of whisper.cpp on your machine, and give the path to that in `whisper-config.mjs`, like
+
+```
+export const WHISPER_PATH = "/Users/vibecoder/Software/whisper.cpp";
+
+export const WHISPER_VERSION = "1.7.5";
+```
 
 ### Non-English languages
 
