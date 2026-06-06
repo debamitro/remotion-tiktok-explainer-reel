@@ -1,7 +1,8 @@
 # Remotion TikTok explainer reel template
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3tL9cWyCBZ8?si=A4-pLPVecuZyxmGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="https://youtu.be/3tL9cWyCBZ8?si=9bM0NxIdm3lJuHGD" target="_blank">
+<img src="https://img.youtube.com/vi/3tL9cWyCBZ8/0.jpg">
+</a>
 
 ## Commands
 
